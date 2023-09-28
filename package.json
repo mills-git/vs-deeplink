@@ -8,7 +8,7 @@
     "url": "https://github.com/eysteinbye/vs-deeplink.git"
   },
   "publisher": "eystein",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.82.0"
   },

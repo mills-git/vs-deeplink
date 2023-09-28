@@ -28,9 +28,3 @@ This extension does not have any configurable settings.
 ## Known Issues
 
 There are no known issues at the moment.
-
-## Release Notes
-
-### 1.0.3
-
-Initial release of DeepLink extension.
