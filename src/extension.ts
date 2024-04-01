@@ -18,7 +18,8 @@ export function activate(context: vscode.ExtensionContext) {
 		const activeEditor = vscode.window.activeTextEditor;
 		if (activeEditor) {
 			// Get the path of the current file
-			const filePath = activeEditor.document.fileName;
+			let filePath = activeEditor.document.fileName;
+			filePath = filePath.replace(' ', '%20'); 
 			// Create a deeplink
 			const deeplink = `vscode://file/${filePath}`;
 			// Extract the base name of the file path
